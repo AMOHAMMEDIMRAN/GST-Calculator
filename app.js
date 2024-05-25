@@ -54,10 +54,10 @@ function loadEventListener(){
         }
         else if(emptyInput.value === "28"){
 
-            const gstExcluded = inputValue.value / 1.24;
-            const cgst = gstExcluded * 0.12;
-            const sgst = gstExcluded * 0.12;
-            const igst = gstExcluded * 0.24;
+            const gstExcluded = inputValue.value / 1.28;
+            const cgst = gstExcluded * 0.14;
+            const sgst = gstExcluded * 0.14;
+            const igst = gstExcluded * 0.28;
     
             const gstExcludedFormatted = gstExcluded.toFixed(2);
             const cgstFormatted = cgst.toFixed(2);
