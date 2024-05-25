@@ -44,15 +44,15 @@ function loadEventListener(){
     
             valueOfGST.innerHTML = `
             
-            <h2 class="mt-5">GST EXCLUDED: <span style="color: red;">${gstExcludedFormatted}</span></h2>
-            <h2 class="mt-5">CGST 9%: <span style="color: red;">${cgstFormatted}</span></h2>
-            <h2 class="mt-5">SGST 9%: <span style="color: red;">${sgstFormatted}</span></h2>
-            <h2 class="mt-5">IGST 18%: <span style="color: red;">${igstFormatted}</span></h2>
+            <h2 class="mt-5">GST EXCLUDED: <span style="color: #ffffff;">${gstExcludedFormatted}</span></h2>
+            <h2 class="mt-4">CGST 9%: <span style="color: #ffffff;">${cgstFormatted}</span></h2>
+            <h2 class="mt-4">SGST 9%: <span style="color: #ffffff;">${sgstFormatted}</span></h2>
+            <h2 class="mt-4">IGST 18%: <span style="color: #ffffff;">${igstFormatted}</span></h2>
     
             `;
             
         }
-        else if(emptyInput.value === "24"){
+        else if(emptyInput.value === "28"){
 
             const gstExcluded = inputValue.value / 1.24;
             const cgst = gstExcluded * 0.12;
@@ -66,10 +66,10 @@ function loadEventListener(){
     
             valueOfGST.innerHTML = `
             
-            <h2 class="mt-5">GST EXCLUDED: <span style="color: red;">${gstExcludedFormatted}</span></h2>
-            <h2 class="mt-5">CGST 12%: <span style="color: red;">${cgstFormatted}</span></h2>
-            <h2 class="mt-5">SGST 12%: <span style="color: red;">${sgstFormatted}</span></h2>
-            <h2 class="mt-5">IGST 24%: <span style="color: red;">${igstFormatted}</span></h2>
+            <h2 class="mt-5">GST EXCLUDED: <span style="color: #ffffff;">${gstExcludedFormatted}</span></h2>
+            <h2 class="mt-4">CGST 12%: <span style="color: #ffffff;">${cgstFormatted}</span></h2>
+            <h2 class="mt-4">SGST 12%: <span style="color: #ffffff;">${sgstFormatted}</span></h2>
+            <h2 class="mt-4">IGST 24%: <span style="color: #ffffff;">${igstFormatted}</span></h2>
     
             `;
             
