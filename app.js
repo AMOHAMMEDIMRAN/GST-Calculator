@@ -67,9 +67,9 @@ function loadEventListener(){
             valueOfGST.innerHTML = `
             
             <h2 class="mt-5">GST EXCLUDED: <span style="color: #ffffff;">${gstExcludedFormatted}</span></h2>
-            <h2 class="mt-4">CGST 12%: <span style="color: #ffffff;">${cgstFormatted}</span></h2>
-            <h2 class="mt-4">SGST 12%: <span style="color: #ffffff;">${sgstFormatted}</span></h2>
-            <h2 class="mt-4">IGST 24%: <span style="color: #ffffff;">${igstFormatted}</span></h2>
+            <h2 class="mt-4">CGST 14%: <span style="color: #ffffff;">${cgstFormatted}</span></h2>
+            <h2 class="mt-4">SGST 14%: <span style="color: #ffffff;">${sgstFormatted}</span></h2>
+            <h2 class="mt-4">IGST 28%: <span style="color: #ffffff;">${igstFormatted}</span></h2>
     
             `;
             

@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
 }
 body {
     background: linear-gradient(72deg,#77a746,#44aea5,#6a8ea7,#af88b4,#2c1f9d);
@@ -34,4 +35,11 @@ a{
 }
 a:hover{
     color: #ffffff;
+}
+ul li{
+  font-weight: 500;
+  font-size: 15px;
+}
+strong{
+  color: #ffffff;
 }
