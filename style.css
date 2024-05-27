@@ -5,23 +5,11 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
-body {
-    background: linear-gradient(72deg,#77a746,#44aea5,#6a8ea7,#af88b4,#2c1f9d);
-    background-size: 360% 360%;
-    animation: gradient-animation 30s ease infinite;
-  }
-  
-  @keyframes gradient-animation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
+body{
+  background: url(./bg-img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 #input-percentage-value{
     max-width: 280px;
 }
@@ -40,6 +28,7 @@ a:hover{
 ul li{
   font-weight: 500;
   font-size: 15px;
+  line-height: 25px;
 }
 strong{
   color: #ffffff;
